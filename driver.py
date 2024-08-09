@@ -94,5 +94,5 @@ def main():
 if __name__ == '__main__':
     main()
     end_time = perf_counter()
-    print(f"Time taken to complete the application {end_time - start_time: 0.2f} seconds()")
+    print(f"Time taken to complete the application {end_time - start_time: 0.2f} seconds")
     logging.info('Application done with no errors')
